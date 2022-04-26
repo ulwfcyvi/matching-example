@@ -1,4 +1,0 @@
-# Created at 2022-03-21T11:07:05.058
-Boot Manifest-JAR contains absolute paths in classpath 'D:\code\mtbit\core-processor\ReplicationLib\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-
