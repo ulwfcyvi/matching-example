@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="benchApp" />
+        <module name="CoreCommon" />
+        <module name="CoreProcessor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ReplicationLib" target="1.8" />
+      <module name="ResultProcessor" target="1.8" />
+      <module name="vertx-gw" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CoreCommon" options="-parameters" />
+      <module name="CoreProcessor" options="-parameters" />
+      <module name="ReplicationLib" options="-Xlint:deprecation -Xlint:deprecation -parameters" />
+      <module name="ResultProcessor" options="-parameters" />
+    </option>
+  </component>
+</project>

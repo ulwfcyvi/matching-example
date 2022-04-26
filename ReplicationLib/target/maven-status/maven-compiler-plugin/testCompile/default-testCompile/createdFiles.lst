@@ -1,0 +1,4 @@
+org\ssi\replication\test\ReplicationServer.class
+org\ssi\replication\test\ReplicationClient.class
+org\ssi\replication\test\PublishEvent.class
+org\ssi\replication\test\HASwitcheImplTest.class
