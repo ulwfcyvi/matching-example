@@ -714,6 +714,7 @@ public class TCPClient implements Closeable {
 //                assert inWire != null;
 //                assert inWire.startUse();
 
+                //没有正在关机
                 while (!isShuttingdown()) {
 
                     checkConnectionState();

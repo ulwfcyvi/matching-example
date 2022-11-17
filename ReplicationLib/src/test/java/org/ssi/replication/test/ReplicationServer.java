@@ -68,6 +68,7 @@ public class ReplicationServer {
 		LOG.info("Tailer end index {}", tailer.toEnd().index());
 		LOG.info("Total event in queue {}", queue.entryCount());
 
+		//是一致性
 		while (ReplicationProcessor.isConsistency() == 0) {
 			Jvm.pause(2000);
 			LOG.info("==> Waiting Sync data");

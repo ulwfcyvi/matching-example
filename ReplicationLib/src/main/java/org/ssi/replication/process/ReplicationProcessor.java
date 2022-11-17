@@ -621,12 +621,14 @@ public class ReplicationProcessor {
 			ExcerptTailer tailer, long lauchIndex) {
 
 		ReplicationConfig.loadConfigFromDisk(path);
+		//如果不是独立的
 		if (!ReplicationConfig.isStandAlone()) {
 			LOG.info("Start replication");
 			ReplicationProcessor.appender = appender;
 			ReplicationProcessor.tailer = tailer;
 			ReplicationProcessor.setPublisher(publisher);
 			ReplicationProcessor.processHA = processHA;
+			//time等待从同步
 			timeWaitSlaveSync = Long.parseLong(ReplicationConfig.getConfigValue("timeWaitSlaveSync", "15000"));
 			queue = (SingleChronicleQueue) appender.queue();
 			firstQueueIndex = queue.firstIndex();
@@ -738,6 +740,7 @@ public class ReplicationProcessor {
 	public static void startHA() {
 		if (ReplicationConfig.isConfigMaster()) {
 			try {
+				//节点当前为主节点
 				status = 1;
 				HaTcpServer.startListening(ReplicationConfig.getConfigValue("connectionString"), true);
 			} catch (IOException e) {

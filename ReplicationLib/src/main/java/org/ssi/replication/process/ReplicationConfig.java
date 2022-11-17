@@ -28,6 +28,7 @@ public class ReplicationConfig {
 	            //load a properties file from class path, inside static method
 	            configs.load(input);
 	            isConfigMaster = Boolean.parseBoolean(configs.getProperty("isMaster","true"));
+	            //是独立的
 	            isStandAlone = Boolean.parseBoolean(configs.getProperty("isStandAlone","true"));
 	            ReplicationProcessor.BATCH_SIZE = Integer.valueOf(configs.getProperty("batchSize"));
 //	            System.setProperty("replicated.queuePath", configs.getProperty("replicated.queuePath","./replicated"));
