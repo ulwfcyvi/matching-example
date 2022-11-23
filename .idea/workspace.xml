@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b5b79e9-2750-4f7b-9dad-4fcd3f77a27c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__com_intellij_annotations_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__com_lmax_disruptor_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__io_aeron_aeron_all_1_24_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_affinity_3_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_chronicle_bytes_2_17_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_chronicle_core_1_16_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_chronicle_network_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_chronicle_queue_5_17_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_chronicle_threads_1_16_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_chronicle_wire_2_17_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__net_openhft_compiler_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_eclipse_collections_eclipse_collections_9_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_eclipse_collections_eclipse_collections_api_9_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_ssi_CoreCommon_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_ssi_ReplicationLib_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoreProcessor/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CoreProcessor/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CoreProcessor/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CoreProcessor/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CoreProcessor/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreProcessor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CoreProcessor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReplicationLib/src/main/java/org/ssi/replication/network/ReplicatedConnectionMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReplicationLib/src/main/java/org/ssi/replication/network/ReplicatedConnectionMonitor.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2Hvm9DM3DIOioXgQCIJNZ7zgjhP" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b5b79e9-2750-4f7b-9dad-4fcd3f77a27c" name="Default Changelist" comment="" />
+      <created>1669173777578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669173777578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
