@@ -6,16 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ReplicationLib" />
+        <module name="CoreCommon" />
         <module name="CoreProcessor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CoreCommon" target="1.8" />
       <module name="CoreProcessor" target="1.8" />
+      <module name="ReplicationLib" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CoreCommon" options="-parameters" />
       <module name="CoreProcessor" options="-parameters" />
+      <module name="ReplicationLib" options="-Xlint:deprecation -Xlint:deprecation -parameters" />
     </option>
   </component>
 </project>

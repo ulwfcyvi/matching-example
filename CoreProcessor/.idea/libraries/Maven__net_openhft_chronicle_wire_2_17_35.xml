@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.openhft:chronicle-wire:2.17.35">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-wire/2.17.35/chronicle-wire-2.17.35.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-wire/2.17.35/chronicle-wire-2.17.35-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/openhft/chronicle-wire/2.17.35/chronicle-wire-2.17.35-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

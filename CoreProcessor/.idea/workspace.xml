@@ -1,888 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b625688-f701-43dc-954a-3415410b2af9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../benchApp/conf/config.jsonbk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/PerfApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/benchmark/MessageStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/benchmark/PersistedHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/ssi/collection/PaddedAtomicInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/ssi/collection/PaddedAtomicLong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/ssi/collection/PaddedInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/ssi/collection/PaddedLong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/response/OrderRealtimeResponseProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/response/PublisherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/response/consumer/OrderResponseConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/response/model/OrderHistoryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/sbe/GroupSizeEncodingDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/sbe/GroupSizeEncodingEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/sbe/OrderHistoryModelDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/sbe/OrderHistoryModelEnDeCoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ssi/sbe/OrderHistoryModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/client/vertx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/client/vertx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/conf/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/conf/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/io/vertx/ext/jdbc/impl/actions/JDBCStatementHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/MainApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/InfluxDBReactive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/InfluxDBReactiveFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/AbstractInfluxEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/AbstractWriteEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/BackpressureEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/QueryParsedResponseEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/UnhandledErrorEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/WriteErrorEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/WritePartialEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/WriteSuccessEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/events/WriteUDPEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/impl/AbstractData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/impl/InfluxDBReactiveImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/impl/InfluxDBServiceReactive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/impl/MeasurementData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/impl/PointData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/impl/RecordData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/options/BatchOptionsReactive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/options/InfluxDBOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/options/QueryOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/influxdb/reactive/options/WriteOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/mem/chart/Candle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/mem/chart/ConcurrentCandleSegment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/common/mem/chart/TimeFrameConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/ChannelIDRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/ChannelName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/CoreErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/CoreEventTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/ErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/EventBusAddresses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/EventBusStatusCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/HttpRequestMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/OrderTypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/PaymentGateWay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/PowerOfTens.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/constant/PowerOfTens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/ResponseErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/ShareConstantsKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/constant/SystemConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/WebsocketErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/constant/WebsocketErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/authentication/AuthUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/authentication/BasicAuthentication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/authentication/CustomOauth2Handler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/authentication/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/authentication/LogoutController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/authentication/TwoFactor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/config/CORSConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/config/CSRFConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/config/HTTPConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/config/RouteConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/config/ServerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/config/SessionConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/AffiliateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/BaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/BrokerCurrencyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/CandleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/DefaultController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/DepositController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/FeeStructureLevelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/LoanController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/OrderController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/PositionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/ProfitLossController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/ReportingController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/SystemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/TickerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/TradeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/TransferController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/TwoFactorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/WalletController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/WithdrawController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/controller/WithdrawWhitelistController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/BalanceEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/BrokerCurrencyEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/BrokerEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/BrokerSymbolConfigConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/BrokerSystemSettingConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/CampaignEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/DepositEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/EntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/GetByEmailConvertter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/GetEmailByIdConvert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/GetIpsByEmailConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/LoginConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/MailTemplateEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/RateConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/SystemSettingEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/UserEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/UserKycEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/UserSettingConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/WalletAddressEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/WithDrawConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/convert/WithdrawWhitelistConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/AffiliateSettingDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/BalanceDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/BaseDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/BrokerCurrencyDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/BrokerDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/BrokerMailTemplateDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/BrokerSymbolConfigDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/BrokerSystemSettingDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/CampaignDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/CurrencyRateDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/DepositDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/DepositHistoryDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/FeeStructureLevelDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/OpenLoanDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/OpenOrderDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/OpenPositionDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/ReportUserGrowthDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/ReportUserTotalTradeDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/SystemSettingDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/UserDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/UserKycDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/UserSettingDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/WalletAddressDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/WithdrawDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/WithdrawWhitelistDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/AffiliateInfluxDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/AffiliatePaidHistoryDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/BaseDBInfluxReactive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/CandleHistoryDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/TradeHistoryDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/UserTrailingReportDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/observable/BaseDBArrayInfluxReactive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/influxdb/observable/TradeHistoryArrayDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/redis/RedisConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/redis/RedisExpireTokenListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/dao/redis/RedisInternalListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/AffiliateSettingEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/BalanceEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/BrokerCurrencyEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/BrokerEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/BrokerMailTemplateEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/BrokerSymbolConfigEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/BrokerSystemSettingEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/CampaignEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/CurrencyRateEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/DepositCreateEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/DepositEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/DepositHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/FeeStructureLevelEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/OpenLoanEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/OpenOrderEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/OpenPositionEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/PageableEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/ReportUserGrowthEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/SystemSettingEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/UserKycEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/UserSettingEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/WalletAddressEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/WithdrawConfirmEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/WithdrawEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/WithdrawReceiveFromCoreEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/WithdrawWhitelistEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/ActivityLogEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/BaseElasticSearchEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/LoanHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/MapperEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/PositionHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/ProfitLossEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/ReportPendingDepositEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/TransferHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/UserAffliateElasticSearchEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/elasticsearch/UserTrailingReportElasticSearchEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/AffiliateHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/BaseEntityInfluxReactive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/CandleActiveEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/CandleHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/GrouppedCandleEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/TimeFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/TradeHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/UserAffiliateEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/UserAffiliatePaidHistoryEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/influxdb/UserTrailingReportEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/entity/util/TimeStampUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/handler/APIRateLimitHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/handler/APIRouteHandlerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/handler/BaseHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/handler/PaymentRouteHandlerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/listener/EventbusSubscriber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/APILimitConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/APIResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/APIRoute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/BalanceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/BalanceType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/Candle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/CheckResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/CmsRequestWithdrawResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/CountRateLimit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/Currency.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/FlatJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/FlatJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/MailSendGridModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/OrderSide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/OrderSide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/OrderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/OrderType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/PositionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/PositionStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/ReportConfigModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/StoreData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/StoreData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/StringJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/StringJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/Ticker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/Ticker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/Trade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/TradeOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/TradeOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/TradeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/TradeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/TwoFactorResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/UserGrowth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/UserProfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/model/Wallet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/repository/CandleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/repository/TimeFrameProcess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/BaseHistoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/CandleHistoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/ChangePasswordRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/CmsCreateWithdrawHandleRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/CreateWithdrawRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/DepositHistoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/OpenOrderRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/OrderHistoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/TradeHistoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/UserKycUploadRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/WalletAddressRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/request/WithdrawHistoryRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/response/BalanceResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/response/BalanceSummaryResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/response/TradeHistoryResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/response/WalletAddressResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ActivityLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/AffiliateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/AmazonS3Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ElasticSearchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/FeeStructureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/HttpClientShared.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/InfluxDBService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ProfitLossService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ReportElasticSearchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ReportEventSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ReportExportCSVService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ReportExportXLSXService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ReportInfluxService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/ReportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/VertxHttpConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/WalletService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/service/WithdrawService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/ApplicationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/BitUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/BitUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/ContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/ContextUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/DateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/DesEncrypter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/DesEncrypter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/EntityUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/FileUtis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/FileUtis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/GStringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/GStringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/JacksonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/JacksonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/MathUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/ReportExportUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/gateway/util/ValidateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/gateway/util/ValidateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/job/AffiliatePayoutJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/job/BatchDailyJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/job/BatchWithdrawJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/job/BatchWithdrawService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/job/ScheduleJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/mail/TestMail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/payment/service/PaymentCoreListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/payment/service/PaymentCorePublisher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/sbe/margin/MessageHeaderDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/sbe/margin/MessageHeaderDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/sbe/margin/MessageHeaderEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/sbe/margin/MessageHeaderEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/sbe/margin/MetaAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/sbe/margin/MetaAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/APIGatewayVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/BatchScheduleVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/CoreSenderVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/DatabaseVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/ElasticsearchVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/MailSendGridVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/PaymentGatewayVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/TelegramVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/TemplateEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/WSVerticle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/verticle/codec/LocalMessageCodec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/BalanceDataHub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/BaseChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/BookDataChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/BookDataHub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/CurrencyManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/MarketDataHub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/OrderDataHub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/PrivateChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/PublicChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/TradeDataChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/TradeDataHub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/UserDataChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/UserDataHub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/WebsocketWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/channel/margin/PositionDataHub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/config/BaseEventConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/config/BaseEventConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/BookDataChannelObj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/BookDataIOManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/BookDataObj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/MarketDataIOManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/MarketDataObj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/ObjectIOManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/TradeDataChannelObj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/TradeDataIOManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/io/TradeDataObj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/BaseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/BaseEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/BaseEventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/BaseEventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/BaseRequestEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/BaseRequestEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/ChannelID.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/ChannelID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/ChannelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/ChannelType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/CountWSRateLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/CountWSRateLimit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/EventChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/EventChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/EventChannelConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/EventChannelConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/EventResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/EventResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/EventType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/EventType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/LevelRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/LevelRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/MarketSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/MarketSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/MatchingResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/MatchingResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/MatchingType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/MatchingType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/RateLimitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/RateLimitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/RequestParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/RequestParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/ResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/ResultModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/SymbolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/SymbolConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/TradeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/TradeMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/model/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/model/WebsocketConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/request/AeronSharedPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/request/AeronSharedPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/request/ConnectionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/request/RequestVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/request/RequestVerify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/request/handler/BaseEventRequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/request/handler/BaseEventRequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/request/handler/BaseEventRequestPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/request/handler/BaseEventRequestPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/request/handler/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/request/handler/RequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/BalanceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/BalanceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/LadderImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/LadderImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/MarketStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/MarketStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/MessageRespone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/MessageRespone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/ObjectImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/ObjectImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/OrderHistoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/OrderHistoryModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/ResultLevelRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/ResultLevelRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/TradeDataEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/TradeDataEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/TransferHistoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/TransferHistoryModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/WSUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/WSUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/respone/model/margin/PositionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/respone/model/margin/PositionModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/AeronSharedSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/AeronSharedSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/BalanceModelSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/BalanceModelSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/BaseSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/BaseSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/MarketDataEventSubsriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/MarketDataEventSubsriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/MarketStatsSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/MarketStatsSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/ObjectImageSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/ObjectImageSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/OrderHistoryModelSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/OrderHistoryModelSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/ResultModelSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/ResultModelSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/response/margin/PositionModelSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/response/margin/PositionModelSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/BalanceModelDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/BalanceModelDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/BalanceModelEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/BalanceModelEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/BalanceModelEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/BalanceModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/BaseEventDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/BaseEventDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/BaseEventEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/BaseEventEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/BaseEventEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/BaseEventEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/GroupSizeEncodingDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/GroupSizeEncodingDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/GroupSizeEncodingEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/GroupSizeEncodingEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MarketDataEventDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MarketDataEventDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MarketDataEventEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MarketDataEventEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MarketDataEventEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MarketDataEventEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MarketStatsDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MarketStatsDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MarketStatsEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MarketStatsEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MarketStatsEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MarketStatsEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MessageHeaderDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MessageHeaderDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MessageHeaderEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MessageHeaderEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/MetaAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/MetaAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ObjectImageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ObjectImageDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ObjectImageEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ObjectImageEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ObjectImageEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ObjectImageEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/OrderHistoryModelDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/OrderHistoryModelDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/OrderHistoryModelEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/OrderHistoryModelEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/OrderHistoryModelEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/OrderHistoryModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/PositionModelDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/PositionModelDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/PositionModelEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/PositionModelEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/PositionModelEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/PositionModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ResultLevelRecordDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ResultLevelRecordDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ResultLevelRecordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ResultLevelRecordEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ResultModelDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ResultModelDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ResultModelEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ResultModelEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/sbe/ResultModelEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/ws/sbe/ResultModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/service/BaseEventValidateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/java/org/mtbit/ws/util/EventConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/main/resources/restapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/main/resources/restapi.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/test/java/org/mtbit/gateway/verticle/APIGatewayVerticleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/test/java/org/mtbit/ws/sbe/BaseEventEnDeCoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/test/java/org/ssi/ws/sbe/BaseEventEnDeCoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/test/java/org/mtbit/ws/sbe/MarketDataEventEnDeCoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/test/java/org/ssi/ws/sbe/MarketDataEventEnDeCoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/test/java/org/mtbit/ws/sbe/ObjectImageEnDeCoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/test/java/org/ssi/ws/sbe/ObjectImageEnDeCoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../benchApp/src/test/java/org/mtbit/ws/sbe/OrderHistoryModelEnDeCoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../benchApp/src/test/java/org/ssi/ws/sbe/OrderHistoryModelEnDeCoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/CoreCommon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreCommon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/ConcurrentObjectPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/Int2DoubleMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/Int2ObjectMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/Long2IntMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/Long2LongMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/Long2ObjectMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/LongArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/ObjectPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/collection/TwoWayLongArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/constant/ScaleConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/core/CoreExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/exception/InvalidMetadataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/exception/UnfinishedStateException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/exception/UnknowMetadataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/factory/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/BalanceDataWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/BufferedChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/MarketDataWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/MetadataManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/OBDataWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/OrdersDataWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/QReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/io/QWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/BaseEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/DataAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/EventResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/EventType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/FeeSide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/MatchingResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/MatchingType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/MessageRespone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/MoneyTransaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/ObEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/OrderSide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/OrderStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/OrderType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/SymbolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/TradeOption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/TradeType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/model/UserBalance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/type/MutualLong.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/BitUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/CollectionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/Hashing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/MathUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/SearchUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/SerializeHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/SystemPropsUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/java/org/mtbit/util/WaitStrategyFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreCommon/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreCommon/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/main/test/org/mtbit/test/BalanceServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreCommon/src/main/test/org/mtbit/test/BalanceServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/test/java/org/mtbit/collection/ObjectPoolTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/test/java/org/mtbit/collection/TwoWayLongArrayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreCommon/src/test/java/org/mtbit/io/OBDataWriterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreProcessor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CoreProcessor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/CoreGlobalValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/CoreProcessorApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/config/AsyncConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/config/BaseEventConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/BalanceConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/DummyConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/JournallingConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/MarketDataConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/MatchingEngineConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/OrderBookConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/OrdersConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/ReplicatingConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/consumer/RiskCheckingConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/core/BalanceProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/core/BaseEventProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/core/DisruptorProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/core/ReplicationProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/core/RiskProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/event/TradeEventManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/matching/MatchingEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/matching/OrderBook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/matching/OrderBucket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/matching/OrderMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/matching/PriceLadder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/model/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/model/TradeDecimals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/publisher/BaseEventPublisher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/sbe/BaseEventDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/sbe/BaseEventEnDeCoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/sbe/BaseEventEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/sbe/MessageHeaderDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/sbe/MessageHeaderEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/sbe/MetaAttribute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/serialization/BalanceSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/serialization/matching/MatchingEngineSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/serialization/matching/OrderBookSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/serialization/matching/OrderSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/serialization/matching/PriceLadderSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/service/BalanceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/service/HAService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/service/JournallingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/service/MetadataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mtbit/service/ReplicatingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/org/mtbit/test/BalanceServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/org/mtbit/test/BalanceServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/perftest/java/org/mtbit/PermanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/perftest/java/org/mtbit/PermanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/balance/BalanceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/io/BufferedChannelTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/matching/MatchingEngineTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/matching/OrderBookTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/matching/OrderBucketTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/matching/OrderMapTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/matching/PriceLadderTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/serialization/matching/MatchingEngineSerializerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/serialization/matching/OrderBookSerializerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/serialization/matching/OrderSerializerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/service/BalanceServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mtbit/util/SearchUtilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReplicationLib/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/ConnectionMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/EventComsummer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/HaTcpClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/HaTcpServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/Messages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/MsgType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/ReplicatedConnectionMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/ReplicatedServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/TCPClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/network/WireTypeSniffingTcpHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/process/HASwitcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/process/IPublishData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/process/ReplicatingEventThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/process/ReplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/process/ReplicationProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/util/ConnectionUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/util/CoreExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/util/ReplicatingStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/main/java/org/mtbit/replication/util/TraceLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/test/java/org/mtbit/replication/test/HASwitcheImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/test/java/org/mtbit/replication/test/PublishEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/test/java/org/mtbit/replication/test/ReplicationClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReplicationLib/src/test/java/org/mtbit/replication/test/ReplicationServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/conf/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/conf/conf.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/conf/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/elasticsearch/action/bulk/BulkRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/elasticsearch/action/index/IndexRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/ResultGlobalValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/ResultGlobalValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/ResultProcessApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/ResultProcessApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/consumer/BalanceDbConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/consumer/BalanceDbConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/consumer/BalanceRealtimeConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/consumer/BalanceRealtimeConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/consumer/MDBroadcastConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/consumer/MDBroadcastConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/consumer/MarketDataConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/consumer/MarketStatsConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/consumer/MarketStatsConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/consumer/OrderDbConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/consumer/OrderRealtimeConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/consumer/OrderRealtimeConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/dao/BaseDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/dao/BaseDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/dao/BulkDb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/dao/PoolConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/dao/PoolConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/dao/ResultBalanceDb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/dao/ResultOpenOrderDb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/elastic/ElasticActionListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/ha/AppliedResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/ha/AppliedResultType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/ha/ClientEventMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/ha/HAService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/ha/ServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/job/ReportOrderJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/job/ScheduleJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/OrderBookDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/OrderBookDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/image/LevelRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/image/LevelRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/image/ObAggregationLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/image/ObAggregationLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/image/ObAggregationLadderHub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/image/ObAggregationLadderHub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/image/ObImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/image/ObImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/image/ObImageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/image/ObImageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/image/ObLadderImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/image/ObLadderImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/matching/image/ResultLevelRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/matching/image/ResultLevelRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/BalanceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/BalanceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/BalanceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/BalanceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/MarketDataEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/MarketDataEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/MarketSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/MarketSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/MarketStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/MarketStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/OrderHistoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/OrderHistoryModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/RateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/RateConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/ResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/ResultModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/UserAffiliateModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/UserAffiliateModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/report/ReportOrderModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/report/ReportOrderModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/model/report/ReportTradingFeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/model/report/ReportTradingFeeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/processor/BalanceProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/processor/BalanceProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/processor/MarketDataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/processor/MarketDataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/processor/OrderProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/processor/OrderProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/processor/OrderbookProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/processor/OrderbookProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/publisher/EventDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/request/EventDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/publisher/GenericEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/request/GenericEventPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/BalanceModelDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/BalanceModelDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/BalanceModelEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/BalanceModelEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/BalanceModelEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/BalanceModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/GroupSizeEncodingDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/GroupSizeEncodingDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/GroupSizeEncodingEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/GroupSizeEncodingEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MarketDataEventDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MarketDataEventDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MarketDataEventEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MarketDataEventEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MarketDataEventEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MarketDataEventEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MarketStatsDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MarketStatsDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MarketStatsEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MarketStatsEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MarketStatsEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MarketStatsEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MessageHeaderDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MessageHeaderDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MessageHeaderEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MessageHeaderEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/MetaAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/MetaAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ObjectImageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ObjectImageDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ObjectImageEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ObjectImageEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ObjectImageEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ObjectImageEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/OrderHistoryModelDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/OrderHistoryModelDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/OrderHistoryModelEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/OrderHistoryModelEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/OrderHistoryModelEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/OrderHistoryModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ResultLevelRecordDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ResultLevelRecordDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ResultLevelRecordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ResultLevelRecordEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ResultModelDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ResultModelDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ResultModelEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ResultModelEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/sbe/ResultModleEnDeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/sbe/ResultModleEnDeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/serialization/matching/ObAggregationLadderSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/serialization/matching/ObAggregationLadderSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/serialization/matching/ObImageMapSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/serialization/matching/ObImageMapSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/AffiliateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/BalanceResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/service/BalanceResultService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/ElasticOrderHistoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/MarketDataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/MetadataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/service/MetadataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/OrderDbService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/PoolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/service/PoolService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/PublisherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/service/PublisherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/service/ResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/service/ResultService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/util/JacksonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/util/JacksonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/mtbit/util/PropertyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/util/PropertyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/ha/HaClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/ha/HaServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/matching/OrderBookDispatcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/matching/OrderBookDispatcherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/matching/image/ObAggreationLadderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/matching/image/ObAggreationLadderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/matching/image/ObAggregationLadderHubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/matching/image/ObAggregationLadderHubTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/matching/image/ObImageHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/matching/image/ObImageHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/sbe/ObjectImageEnDeCoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/sbe/ObjectImageEnDeCoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/serialization/matching/ObAggregationLadderSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/serialization/matching/ObAggregationLadderSerializerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/serialization/matching/ObImageMapSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/serialization/matching/ObImageMapSerializerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/service/BalanceResultServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/service/BalanceResultServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/service/OrderDBTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/service/PublisherServiceMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/service/PublisherServiceMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/mtbit/service/PulisherServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResultProcessor/src/test/java/org/ssi/service/PulisherServiceTest.java" afterDir="false" />
+    <list default="true" id="fa2d39c6-f583-435a-824e-cb1c035076af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_intellij_annotations_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_aeron_aeron_all_1_24_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_affinity_3_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_bytes_2_17_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_core_1_16_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_network_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_queue_5_17_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_threads_1_16_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_chronicle_wire_2_17_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_compiler_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_collections_eclipse_collections_9_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_collections_eclipse_collections_api_9_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jol_jol_core_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ssi_CoreCommon_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ssi_ReplicationLib_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
+  <component name="ProjectId" id="2HvhADXroA6BRvT76p4w75Z4ceA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
     </option>
   </component>
-  <component name="ProjectId" id="26g69rgysE0nVTrYzvXc3fOiDzs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CoreCommon/src/main/java/org/ssi/backup" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\mtbit\core-processor\CoreCommon\src\main\java\org\ssi\backup" />
-      <recent name="D:\code\mtbit\core-processor\CoreCommon\src\main\java\org\ssi" />
-      <recent name="D:\code\mtbit\benchApp\conf" />
-      <recent name="D:\code\mtbit\core-processor\CoreProcessor\src\main\java\org\ssi\respones" />
-      <recent name="D:\code\mtbit\core-processor\CoreProcessor\src\main\java\org\ssi\sbe" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org.ssi" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.ssi.collection" />
-      <recent name="org.ssi.response" />
-      <recent name="org.ssi.response.model" />
-      <recent name="org.ssi.respones.consumer" />
-      <recent name="org.ssi.respones" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.PaddedLong">
-    <configuration name="BaseEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ssi.model.BaseEvent" />
-      <module name="CoreCommon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ssi.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatchingResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ssi.model.MatchingResult" />
-      <module name="CoreCommon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ssi.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaddedAtomicInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ssi.collection.PaddedAtomicInt" />
-      <module name="CoreCommon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ssi.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaddedLong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ssi.collection.PaddedLong" />
-      <module name="CoreCommon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ssi.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerfApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_202" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.ssi.PerfApp" />
-      <option name="PROGRAM_PARAMETERS" value="10000 1 25000 2 25000 5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../benchApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ssi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoreProcessorApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="CoreProcessor" />
-      <selectedOptions>
-        <option name="spring.boot.profiles" visible="false" />
-      </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ssi.CoreProcessorApp" />
-      <option name="PROGRAM_PARAMETERS" value="-Xgc:deterministic -Xms:2g -Xmx:8g " />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_202" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.PerfApp" />
-      <item itemvalue="Application.PaddedLong" />
-      <item itemvalue="Application.PaddedAtomicInt" />
-      <item itemvalue="Application.MatchingResult" />
-      <item itemvalue="Application.BaseEvent" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.PaddedLong" />
-        <item itemvalue="Application.PaddedAtomicInt" />
-        <item itemvalue="Application.PerfApp" />
-        <item itemvalue="Application.MatchingResult" />
-        <item itemvalue="Application.BaseEvent" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b625688-f701-43dc-954a-3415410b2af9" name="Changes" comment="" />
-      <created>1647832737835</created>
+      <changelist id="fa2d39c6-f583-435a-824e-cb1c035076af" name="Default Changelist" comment="" />
+      <created>1669171318790</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1647832737835</updated>
-      <workItem from="1647832742462" duration="239000" />
-      <workItem from="1647833620031" duration="1754000" />
-      <workItem from="1647835518846" duration="463000" />
-      <workItem from="1647836417367" duration="2770000" />
-      <workItem from="1647845749036" duration="1355000" />
-      <workItem from="1648696679436" duration="66912000" />
-      <workItem from="1649040353743" duration="27444000" />
-      <workItem from="1649122104533" duration="438000" />
-      <workItem from="1649123173297" duration="17867000" />
-      <workItem from="1649145584921" duration="1855000" />
-      <workItem from="1649207416199" duration="1197000" />
-      <workItem from="1649339047384" duration="168000" />
-      <workItem from="1649380504944" duration="15368000" />
-      <workItem from="1649399511650" duration="20000" />
-      <workItem from="1649399787463" duration="831000" />
-      <workItem from="1649400976087" duration="283000" />
-      <workItem from="1650079327740" duration="64000" />
-      <workItem from="1650175782502" duration="2952000" />
-      <workItem from="1650181285715" duration="6541000" />
-      <workItem from="1650278751859" duration="42000" />
-      <workItem from="1650823008526" duration="6659000" />
-      <workItem from="1650829945354" duration="4111000" />
-      <workItem from="1650848589422" duration="668000" />
-      <workItem from="1650849273660" duration="25000000" />
-      <workItem from="1650936211882" duration="4000" />
+      <updated>1669171318790</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -894,71 +121,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/consumer/MDBroadcastConsumer.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../ResultProcessor/src/main/java/org/ssi/processor/MarketDataProcessor.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../CoreCommon/src/main/java/org/ssi/io/OrdersDataWriter.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar!/org/HdrHistogram/AbstractHistogram.class</url>
-          <line>706</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/ssi/response/PublisherService.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/PerfApp.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../../benchApp/src/main/java/org/ssi/benchmark/MessageStats.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/ssi/matching/MatchingEngine.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/ssi/CoreGlobalValue.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/ssi/consumer/MatchingEngineConsumer.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalStateException" package="java.lang" />
-          <option name="timeStamp" value="38" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="AERON_MODE_MDC.equals(PropertyConfig.getString(&quot;server.stream.aeron.pub.mode&quot;))" />
-        <watch expression="PropertyConfig.getString(&quot;server.stream.aeron.pub.mode&quot;)" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

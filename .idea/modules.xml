@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CoreCommon/CoreCommon.iml" filepath="$PROJECT_DIR$/CoreCommon/CoreCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CoreProcessor/CoreProcessor.iml" filepath="$PROJECT_DIR$/CoreProcessor/CoreProcessor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReplicationLib/ReplicationLib.iml" filepath="$PROJECT_DIR$/ReplicationLib/ReplicationLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/matching-example-repli.iml" filepath="$PROJECT_DIR$/.idea/matching-example-repli.iml" />
+    </modules>
+  </component>
+</project>

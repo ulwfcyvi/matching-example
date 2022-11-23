@@ -27,7 +27,7 @@ public class ReplicatedConnectionMonitor extends ConnectionMonitor{
 	
 	public ReplicatedConnectionMonitor() {
 		WaitStrategy waitStrategy = new BlockingWaitStrategy();
-		eventComsummer = new EventComsummer();
+		eventComsummer = new EventComsummer(); //slaveProcessReplicateEvent
         disruptor = new Disruptor<>(
         		ReplicatedConnectionMonitor::elasticByteBuffer,
                 4 * 1024 * 1024,
